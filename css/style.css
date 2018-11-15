@@ -1,3 +1,49 @@
+
 body {
-    background-color: black;
+    background-color:white;
+    background-image: url(bg11.jpg);
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    background-color: blue;
+    width: 90%;
+}
+
+#header {
+   background-color: cyan;
+   text-align: center;
+   
+}
+
+#header h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px;
+    margin-bottom: -1%;
+    font-family: tahoma,calibri;
+    font-size: 2em;
+    color: 
+    
+
+}
+
+#header p {
+    margin: 0;
+    padding-left: 23%;
+}
+
+
+
+@media screen and (min-width: 480px){
+    .container {
+        background-color: red;
+    }
+}
+
+
